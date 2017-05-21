@@ -1,0 +1,10 @@
+body {
+   background-color: teal;
+}
+
+h1 {
+    position: relative;
+    color: darkblue;
+    size: 200px;
+    float: right 400px;
+}

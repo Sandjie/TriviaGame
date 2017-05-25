@@ -1,7 +1,6 @@
 body {
-   background-color: teal;
+    background-image: url("//images/pos.png");
 }
-
 h1 {
     position: relative;
     color: darkblue;

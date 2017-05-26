@@ -1,18 +1,52 @@
 body {
-    background: url("../images/pos.png");
-    font-style: color white; 
+   
+    
 }
 
-
-h1 {
+#main-container {
+    width: 75%;
+    float: right;
     position: relative;
-    color: turquoise;
-    size: 200px;
-    float: right 400px;
+    right:  200px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    margin-top: 40px;
+    font: white; 
+    
+}
+#sub-container {
+  position: relative;
+  top: 20%;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  background-size: 100%;
+  
+}
+h1 {
+  background-image: url("../images/earthback.jpg"); 
+  font-family: 'Arial', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+}
+button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0 auto;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 42px;
+  color: teal;
+  background-color: darkblue;
+}
+h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
-input[type=radio] {
-    border: 0px;
-    width: 20px;
-    height: 2em;
-}
